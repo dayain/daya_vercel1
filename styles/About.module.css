@@ -1,0 +1,49 @@
+.container {
+    margin-top: 10vh;
+    background-color: lightgrey;
+    overflow: hidden; 
+}
+
+.aboutus_img_container {
+    width: 100vw;
+    /* overflow-x: hidden; */
+}
+.aboutus_img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.aboutus_content {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+}
+.aboutus_header {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.aboutus_content > p {
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+
+.aboutus_content > ul {
+    margin-top: 1rem;
+    /* line-height: 1.5rem; */
+}
+
+.aboutus_content > ul > li {
+    /* margin-top: 1rem; */
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-left: 0.5rem;
+    display: flex;
+}
+
+.aboutus_content > ul > li > span {
+    display: inline-block;
+    padding-left: 0.7rem;
+}
